@@ -139,7 +139,8 @@ const Home = () => {
 
       {/* CTA Button */}
       <button
-        onClick={() => navigate("/interview/setup")}
+        // onClick={() => navigate("/interview/setup")}
+          onClick={() => navigate("/start")}
         className=" mt-3 group relative inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-medium overflow-hidden transition-all duration-300
         hover:scale-105 hover:bg-blue-700 active:scale-95 shadow-md hover:shadow-xl"
       >
