@@ -183,7 +183,3 @@ The frontend communicates with backend APIs for:
 GitHub: https://github.com/kaneshak79
 
 ---
-
-## ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub!
