@@ -1,21 +1,4 @@
-// import { useEffect, useState } from "react";
-// import API from "../api/axios";
 
-// export default function AdminQuestions() {
-//   const [q,setQ]=useState([]);
-
-//   useEffect(()=>{
-//     API.get("/questions").then(res=>setQ(res.data));
-//   },[]);
-
-//   return (
-//     <div>
-//       {q.map(i=>(
-//         <div key={i._id}>{i.question}</div>
-//       ))}
-//     </div>
-//   );
-// }
 
 
 import { useEffect, useState } from "react";
