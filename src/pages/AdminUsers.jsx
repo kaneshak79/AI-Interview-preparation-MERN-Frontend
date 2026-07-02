@@ -1,23 +1,4 @@
-// import { useEffect, useState } from "react";
-// import API from "../api/axios";
 
-// export default function AdminUsers() {
-//   const [users,setUsers]=useState([]);
-
-//   useEffect(()=>{
-//     API.get("/users").then(res=>setUsers(res.data));
-//   },[]);
-
-//   return (
-//     <div>
-//       {users.map(u=>(
-//         <div key={u._id}>
-//           {u.email}
-//         </div>
-//       ))}
-//     </div>
-//   );
-// }
 
 
 import { useEffect, useState } from "react";
