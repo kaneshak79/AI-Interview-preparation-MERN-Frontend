@@ -1,23 +1,4 @@
-// import { useEffect, useState } from "react";
-// import API from "../api/axios";
-// import { useParams } from "react-router-dom";
 
-// export default function InterviewDetail() {
-//   const { id } = useParams();
-//   const [data, setData] = useState([]);
-
-//   useEffect(()=>{
-//     API.get(`/responses/interview/${id}`).then(res=>setData(res.data));
-//   },[]);
-
-//   return (
-//     <div>
-//       {data.map(r=>(
-//         <div key={r._id}>
-//           <p>{r.answer}</p>
-//           <p>{r.score}</p>
-//         </div>
-//       ))}
 //     </div>
 //   );
 // }
